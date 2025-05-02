@@ -1,0 +1,38 @@
+/* Fondo con el GIF */
+.background img {
+    position: fixed; /* Fija el GIF en el fondo */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho */
+    height: 100%; /* Ocupa toda la altura */
+    object-fit: cover; /* Asegura que el GIF mantenga las proporciones y cubra toda la pantalla */
+    z-index: -1; /* Coloca el GIF detrás del contenido */
+}
+
+/* Contenedor para el botón */
+.button {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100vh;           /* Asegura que ocupe toda la altura de la ventana */
+    margin: 0;
+    position: relative; /* Asegura que el contenido esté por encima del fondo */
+}
+
+/* Estilos para la lista y el enlace */
+ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    font-size: 50px;
+    text-decoration: none; 
+    color: #fff;           /* Color del texto */
+    padding: 10px 20px;    /* Espaciado alrededor del texto */
+    background-color: #007bff; /* Fondo azul */
+    border: 2px solid #007bff; 
+     }
+ 
+
